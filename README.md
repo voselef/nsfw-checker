@@ -19,7 +19,7 @@ You can download libraries right now:
 ```
 npm install nsfwjs express body-parser multer canvas
 ```
-After than create index.js[^1] file in project directory adn edit file with code below:
+After than create index.js[^1] file in project directory and edit file with code below:
 ```
 const express = require('express');
 const multer = require('multer');
