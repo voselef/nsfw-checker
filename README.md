@@ -70,6 +70,8 @@ app.listen(3000, () => {
 ```
 After node.js code add your php code to code below:
 ```
+$uploadPath = ""; //Provide the file's temporary path
+
 $ch = curl_init();
 curl_setopt($ch, CURLOPT_URL, 'http://localhost:3000/check-image');
 curl_setopt($ch, CURLOPT_POST, 1);
